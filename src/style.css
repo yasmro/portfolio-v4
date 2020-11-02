@@ -1,0 +1,81 @@
+
+.pace-running .wrap {
+  display: none;
+}
+
+.enmel{
+  display: none;
+}
+
+.navBarLogo{
+  height: 1.8rem;
+}
+
+div.resume-date{
+    margin-bottom: 8px;
+}
+
+span.resume-date{
+    color: whitesmoke;
+    background-color: black;
+    padding: 2px 15px;
+    font-weight: bold;
+}
+
+
+/* Works */
+.works-category-box{
+  height: 120px;
+}
+
+.contents-works{
+	margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 576px) {
+  .contents-works{
+    margin-bottom: 25px;
+  }
+}
+
+/* contacts */
+.contact-box{
+  height: 120px;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #343a40;
+  color: #fff !important;
+  border-radius: 100%;
+  border: 3px solid #343a40;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.15rem;
+  margin-right: 0.8rem;
+  transition: 0.3s;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+
+.social-icons a:hover > .fab, .social-icons a:hover > .far{
+    color: #343a40;
+
+}
+
+/* footer */
+
+.footer-copyright{
+    font-family: ff-dax-pro, serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
