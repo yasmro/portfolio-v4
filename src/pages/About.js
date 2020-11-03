@@ -10,13 +10,11 @@ class About extends React.Component {
     super();
     // this.state = skills;
     this.state = {}
-    window.scrollTo(0, 0);
   }
 
   componentDidMount() {
     var section = "About";
     var title = " – Yasmro's Portfolio 2020"
-    document.title = section + title;
   }
 
   renderskills(skills) {
