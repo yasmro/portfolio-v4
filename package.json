@@ -33,8 +33,10 @@
     "test": "react-scripts test",
     "build:tailwind": "tailwind build src/App.css -o src/tailwind.css",
     "eject": "react-scripts eject",
-    "dev": "next dev",
-    "build": "next build"
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
   },
   "eslintConfig": {
     "extends": "react-app"
