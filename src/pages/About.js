@@ -4,7 +4,6 @@ import NavBar from '../components/NavBar'
 // import Footer from './Footer'
 // import { state as skills } from '../data/skills'
 
-import '../style.css';
 
 class About extends React.Component {
   constructor() {
